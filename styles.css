@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel Decorative&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Cinzel Decorative';
+  background-image: url('htt://images.unslash.com/photo-1601662528567-526cd06f6582?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80');
+  background-size: cover;
+  background-position-x: center;
+
+}
+
+.hero {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('Photo\ 1.png');
+  background-size: cover;
+  background-position: top;
+  opacity: 0.8; 
+  z-index: -1; 
+}
+
+
+.hero h1 {
+  font-size: 100px;
+  margin: 0;
+  color: rgb(248, 240, 229);
+  font-family: 'Cinzel Decoratrive';
+  font-weight: lighter;
+  letter-spacing: 5px;
+  padding: 0;
+}
+
+.hero h3 {
+  font-size: 32px;
+  margin: 0;
+  color: rgb(218, 192, 163);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.hero h2 {
+  font-size: 45px;
+  margin: 10px 0;
+  color: rgb(234, 219, 200);
+}
+
+#akad {
+  margin: 80px 0;
+  background-color: ;
+}
+
+.line {
+  height: 5px;
+  border-radius: 10px;
+  width: 35%;
+  background-color: rgb(218, 192, 163);
+  
+}
+
+
+
+.bingkai {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#akad h1 {
+  text-align: center;
+  font-size: 64px;
+  color: rgb(16, 44, 87);
+  margin: 30px 0;
+  font-family: 'Cinzel Decorative';
+  font-weight: lighter;
+}
+
+.section_wrap {
+  max-width: 1080px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.section_container_akad {
+  height: 350px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.akad_img {
+  flex: 1;
+  height: 350px;
+  border-radius: 10px;
+  background-image: url('Akad.jpg');
+  background-size: cover;
+}
+
+.akad_img img {
+  width: 100%;
+  height: inherit;
+}
+
+#akad h3 {
+  font-size: 32px;
+  margin: 10px 0;
+  color: rgb(41, 41, 41);
+  font-family: 'Italiana', serif;
+}
+
+#akad h4 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: rgb(0, 0, 0);
+  font-family: 'Italiana', serif;
+}
+
+#resepsi {
+  margin: 80px 0;
+}
+
+#resepsi h1 {
+  text-align: center;
+  font-size: 64px;
+  color: rgb(16, 44, 87);
+  margin: 30px 0;
+  font-family: 'Cinzel Decorative';
+  font-weight: lighter;
+}
+
+.resepsi_img {
+  flex: 1;
+  height: 350px;
+  border-radius: 10px;
+  background-image: url('Resepsi.jpg');
+  background-size: cover;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
+}
+
+.section_container_resepsi {
+  height: 350px;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#resepsi h3 {
+  font-size: 32px;
+  margin: 10px 0;
+  color: rgb(41, 41, 41);
+  font-family: 'Italiana', serif;
+}
+
+#resepsi h4 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: rgb(41, 41, 41);
+  font-family: 'Italiana', serif;
+}
+
+#gallery h1 {
+  text-align: center;
+  font-size: 64px;
+  color: rgb(41, 41, 41);
+  margin: 30px 0;
+  font-family: 'Cinzel Decorative';
+  font-weight: lighter;
+}
+
+.gallery_container {
+  max-width: 1080px;
+  border: 1px solid green;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+}
+
+.selector_wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.gallery_list {
+  width: 50%;
+}
+
+.gallery_list img {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 60px;
+}
+
+.audio-section {
+  text-align: center; 
+  padding: 10px ; 
+  background-color:rgb(16, 44, 87) ;
+
+
+}
+
+
